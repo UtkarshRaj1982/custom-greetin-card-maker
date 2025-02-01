@@ -1,0 +1,95 @@
+/* Toolbox section */
+body
+{
+    background-color: powderblue;
+}
+.toolbox {
+    display: flex;
+    flex-direction: column; /* Stack the input section and icon buttons */
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Light color for toolbox */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 300px;
+    margin: auto; /* Centers the toolbox horizontally */
+    gap: 15px; /* Add space between input section and icon buttons */
+  }
+  
+  /* Input section */
+  .toolbox-input-section {
+    display: flex;
+    flex-direction: row; /* Arrange input and button horizontally */
+    align-items: center;
+    gap: 10px; /* Space between input and button */
+    width: 100%;
+  }
+  
+  .text-input {
+    padding: 10px;
+    flex: 1; /* Allow input field to expand */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .toolbox-button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .toolbox-button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+  }
+  
+  /* Icon buttons */
+  .icon-buttons {
+    display: flex;
+    flex-direction: row; /* Arrange icons horizontally */
+    gap: 10px;
+    justify-content: center; /* Center align the icons */
+    width: 100%;
+  }
+  
+  /* Adding styles for the icons in the toolbox */
+  .toolbox-button svg {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Center the entire editor container */
+  .editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+    margin: auto; /* Centers the editor-container horizontally */
+    height: 100vh; /* Ensures it takes the full viewport height */
+  }
+  
+
+  .stage-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff; /* White background for the canvas area */
+    padding: 10px;
+    border: 2px dashed #007BFF; /* Dashed blue border for emphasis */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
